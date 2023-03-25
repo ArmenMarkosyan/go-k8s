@@ -17,9 +17,6 @@ spec:
         image: YOUR_DOCKERHUB_NAME/api-image:v1.0
         ports:
           - containerPort: 8080
-        env:
-          - name: PORT
-            value: "8080"
 
 ---
 
